@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>orb_slam2_core</name>
+    <version>0.0.0</version>
+    <description>The orb_slam2 package</description>
+    <maintainer email="tanzby@outlook.com">iceytan</maintainer>
+    <license>TODO</license>
+
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <depend>g2o</depend>
+    <depend>dbow2</depend>
+
+    <export></export>
+</package>

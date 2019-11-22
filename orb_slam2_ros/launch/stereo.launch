@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="orb_slam2_ros" type="stereo" name="orb_stereo_node" output="screen">
+        <param name="vocabulary_path" value="$(find orb_slam2_core)/vocabulary/ORBvoc.txt"/>
+        <param name="settings_path" value="$(find orb_slam2_core)/config/EuRoC.yaml"/>
+        <param name="do_rectify" value="true"/>
+    </node>
+</launch>
